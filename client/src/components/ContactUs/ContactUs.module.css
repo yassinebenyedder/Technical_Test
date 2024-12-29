@@ -1,0 +1,81 @@
+.contactUs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  
+  }
+  
+  .contactUsContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    border: 5px solid rgb(191, 38, 122);
+    border-radius: 18px;
+    padding: 35px 35px 35px 35px;
+  }
+  
+  .contactImage {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .contactImage img {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    object-fit: cover;
+  }
+  
+  .contactForm {
+    flex: 1;
+    max-width: 550px;
+  }
+  
+  .contactForm h2 {
+    color: rgb(191, 38, 122);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .inputGroup {
+    margin-bottom: 15px;
+  }
+  
+  .inputGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .inputGroup input,
+  .inputGroup textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .inputGroup textarea {
+    resize: vertical;
+    height: 75px;
+  }
+  
+  .contactForm button {
+    padding: 10px 20px;
+    background-color: rgb(191, 38, 122);
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .contactForm button:hover {
+    background-color: rgb(114, 26, 75);
+  }
+  
